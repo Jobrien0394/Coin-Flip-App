@@ -4,13 +4,14 @@ const coin = {
     // 1. Randomly set your coin object's "state" property to be either
     //    0 or 1: use "this.state" to access the "state" property on this object.
     const coinFlip = Math.round(Math.random()) + 1;
+    return this.state(coinFlip)
   },
   toString: function () {
     // 2. Return the string "Heads" or "Tails", depending on whether
     //    "this.state" is 0 or 1.
      0 = tails
      1 = Head
-
+    
   },
   toHTML: function () {
     const image = document.createElement("img");
